@@ -1,0 +1,114 @@
+.btnblrbs {
+    font-size: 19px;
+    background-color: transparent;
+    border-radius: 9px;
+    padding:8px 15px;
+}
+
+.btnblrbs:hover {
+    transition: ease-in 0.5s;
+    color:white;
+    
+}
+
+.redbtn {
+    border:1px solid #D76574;
+    color:#D76574;
+}
+.redbtn:hover {
+    background-color: #D76574;
+}
+
+.text-red{
+    color:#D76574;
+}
+
+.yellowbtn {
+    border:1px solid #EBCB69;
+    color:#EBCB69;
+}
+
+.yellowbtn:hover {
+    background-color:#EBCB69;
+}
+
+.bluebtn {
+    border:1px solid #3C687D;
+    color:#3C687D;
+}
+
+.bluebtn:hover {
+    background-color:#3C687D;
+}
+
+.greenbtn {
+    border:1px solid #75B48D;
+    color:#75B48D;
+}
+
+.greenbtn:hover {
+    background-color:#75B48D;
+}
+
+.blbtxt {
+    color: #575151;
+}
+
+.text-yllw {
+    color:#EBCB69;
+}
+
+.text-blue {
+    color:#3C687D;
+}
+
+.text-grn {
+    color:#75B48D;
+}
+
+.services {
+    height: 500px;
+    padding:40px 50px 20px;
+    background-color: #182430;
+}
+
+.thirds {
+    float:left;
+    width:33%;
+    margin:0px;
+}
+
+.blurbs {
+    margin:40px auto 0px;
+}
+
+.interested {
+    background: url(../images/laptop.png) no-repeat right bottom, url(../images/color.png) repeat;
+    background-size: 49%;
+    height:370px;
+}
+
+.btns {
+    background-color: #E84278 ;
+    border-radius: 7px;
+    font-size: 18px;
+    padding:8px 15px;
+}
+
+footer {
+    background-color: #FFEFEF;
+    height:380px;
+}
+
+.quarter {
+    float: left;
+    margin: 0;
+    width: 25%;
+}
+
+.hero {
+    margin-top:50px;
+    background: url(../images/patients/956.png) no-repeat;
+    background-size: contain;
+    height:700px;
+}
