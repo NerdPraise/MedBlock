@@ -15,6 +15,8 @@
     border:1px solid #D76574;
     color:#D76574;
 }
+
+
 .redbtn:hover {
     background-color: #D76574;
 }
@@ -67,7 +69,7 @@
 }
 
 .services {
-    height: 500px;
+    min-height: 500px;
     padding:40px 50px 20px;
     background-color: #182430;
 }
@@ -90,14 +92,16 @@
 
 .btns {
     background-color: #E84278 ;
-    border-radius: 7px;
-    font-size: 18px;
-    padding:8px 15px;
+    border:1px solid #E84278;
+    padding: 12px 15px;
+    color:white;
+    font-weight: 500;
+    box-shadow: 2px 1px 8px #888888 ;
 }
 
 footer {
     background-color: #FFEFEF;
-    height:380px;
+    min-height:380px;
 }
 
 .quarter {
@@ -107,8 +111,40 @@ footer {
 }
 
 .hero {
-    margin-top:50px;
     background: url(../images/patients/956.png) no-repeat;
-    background-size: contain;
-    height:700px;
+    background-size: cover;
+    min-height:500px;
+}
+
+.himg {
+    background: url(../images/home.png) no-repeat right;
+    background-size: 52%;
+}
+
+.h1, .h2, .h3, .h4 {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.h5, .h6, p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-grey {
+    color: #A3A8AE
+}
+
+.tick-text {
+    font: Medium 26px Roboto;
+}
+
+.pills {
+    background: url("../images/health/red-and-white-medication-pills-3683041.png") no-repeat center;
+    min-height: 250px;
+    
+}
+
+.pill-text {
+    font: Bold 55px Open Sans;
+    color:#5E5151;
 }

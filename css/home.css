@@ -20,9 +20,6 @@ a {
   a:hover {
     text-decoration: none; }
 
-h1, h2, h3, h4, h5,
-.h1, .h2, .h3, .h4, .h5 {
-  font-family: 'Poppins', sans-serif;}
 
 .bg-light {
   background: #f6f6f6 !important; }
@@ -78,10 +75,10 @@ h1, h2, h3, h4, h5,
     z-index: 21;
     background: rgba(0, 0, 0, 0.2); }
 
-.btn {
+/* .btn {
   font-size: 16px;
   border-radius: 30px;
-  padding: 10px 30px; }
+  padding: 10px 30px; } */
   .btn:hover, .btn:active, .btn:focus {
     outline: none;
     -webkit-box-shadow: none !important;
@@ -112,7 +109,7 @@ h1, h2, h3, h4, h5,
 .bg-black {
   background: #000; }
 
-.form-control {
+/* .form-control {
   height: 43px;
   border-radius: 30px;
   font-family: 'Poppins', sans-serif;}
@@ -120,7 +117,7 @@ h1, h2, h3, h4, h5,
     border-color: #4285f4; }
   .form-control:hover, .form-control:active, .form-control:focus {
     -webkit-box-shadow: none !important;
-    box-shadow: none !important; }
+    box-shadow: none !important; } */
 
 .site-section {
   padding: 2.5em 0; }
@@ -289,13 +286,13 @@ h1, h2, h3, h4, h5,
     appearance: none;
     width: 100%; }
 
-/* Navbar */
+/* Navbar
 .site-navbar {
   margin-bottom: 0px;
   z-index: 1999;
   position: absolute;
   width: 100%;
-  background: #fff; }
+  background: #fff; } */
   .site-navbar .site-logo {
     position: relative;
     left: 0;
@@ -604,9 +601,7 @@ h1, h2, h3, h4, h5,
     position: absolute;
     bottom: -250px;
     width: 100%; }
-  .site-blocks-cover, .site-blocks-cover > .container > .row {
-    min-height: 600px;
-    height: calc(100vh); }
+  
   .site-blocks-cover.inner-page-cover, .site-blocks-cover.inner-page-cover > .container > .row {
     min-height: 400px;
     height: calc(20vh); }
