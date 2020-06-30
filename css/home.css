@@ -1417,8 +1417,8 @@ a {
 
 .text-muted {
   color: #ccc !important;
-  font-size: 12px;
-  text-transform: uppercase; }
+  font-size: 15px;
+}
 
 .how-it-work-item .number {
   width: 50px;

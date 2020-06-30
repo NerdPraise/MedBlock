@@ -148,3 +148,32 @@ footer {
     font: Bold 55px Open Sans;
     color:#5E5151;
 }
+
+.dimg {
+    background: url("../images/15571.png") no-repeat top center ;
+    height:100%;
+    background-size:cover;
+    position: fixed;
+    left:0
+
+}
+
+@media only screen and (max-width:770px){
+    .dimg {
+        display: none;
+    }   
+}
+
+.rigm {
+    position: absolute;
+    right:0
+}
+
+.fplc input::placeholder {
+    color:#43425D;
+    font-size: 15px;
+}
+
+.fplc input:focus {
+    outline:none;
+}
