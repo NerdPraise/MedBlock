@@ -177,3 +177,15 @@ footer {
 .fplc input:focus {
     outline:none;
 }
+
+.btn-green {
+    background-color: #49BB75;
+    color:white;
+    padding: 8px 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.btn-green:hover {
+    box-shadow: 0px;
+    color:white;
+}
