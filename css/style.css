@@ -90,13 +90,19 @@
     height:370px;
 }
 
-.btns {
-    background-color: #E84278 ;
-    border:1px solid #E84278;
+.btns { 
+    background-color: #FC546E ;
+    border:1px solid #FC546E;
     padding: 12px 15px;
     color:white;
     font-weight: 500;
-    box-shadow: 2px 1px 8px #888888 ;
+    box-shadow:1px 7px 8px #888888 ;
+}
+
+.btns:hover {
+    box-shadow:none ;
+    color:white;
+
 }
 
 footer {
@@ -132,6 +138,10 @@ footer {
 
 .text-grey {
     color: #A3A8AE
+}
+
+.text-blacks {
+    color: #363131
 }
 
 .tick-text {
@@ -189,3 +199,33 @@ footer {
     box-shadow: 0px;
     color:white;
 }
+
+.herodct {
+    background: url(../images/doctor/hero.png) no-repeat;
+    background-size: cover;
+    min-height:500px;
+}
+
+form.contact input, form.contact textarea,  form.contact button {
+    color: #3C687D;
+    font-weight: 500;
+}
+
+.hey {
+    z-index:9999;
+    position: absolute;
+    overflow: auto;
+    top:0;
+    left:0;
+    background-color: rgba(0,0,0,0.2);
+    width:100%;
+    height:100%;
+    animation-name: opate;
+    animation-duration: 0.4s
+  }
+  
+  /* Add Animation */
+  @keyframes opate {
+    from { opacity: 0}
+    to { opacity: 1}
+  }
