@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 .btnblrbs {
     font-size: 19px;
     background-color: transparent;
