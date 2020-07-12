@@ -210,6 +210,12 @@ footer {
     min-height:500px;
 }
 
+.herorsh {
+    background: url(../images/researcher/mcito.png) no-repeat;
+    background-size: cover;
+    min-height:500px;
+}
+
 form.contact input, form.contact textarea,  form.contact button {
     color: #3C687D;
     font-weight: 500;
