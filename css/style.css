@@ -245,9 +245,20 @@ form.contact input, form.contact textarea, form.contact button {
 }
 
 .ic {
-    color:grey;
+    color: grey;
 }
 
 .ice {
-    color:black;
+    color: black;
+}
+
+.divided {
+    display: flex;
+    align-items: center;
+}
+
+.divider {
+    flex-grow: 1;
+    border-bottom: 1px solid black;
+    margin: 5px
 }
