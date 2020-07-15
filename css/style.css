@@ -243,3 +243,11 @@ form.contact input, form.contact textarea, form.contact button {
         opacity: 1
     }
 }
+
+.ic {
+    color:grey;
+}
+
+.ice {
+    color:black;
+}
