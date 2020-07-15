@@ -114,8 +114,196 @@
             </nav>
         </header>
 
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 text-cente text-md-left">
+                    <div class="h3 text-blacks font-weight-bold">Personal Details</div>
+                    <div class="h3 text-blacks d-none font-weight-bold">Professional Details</div>
+                    <div class="h3 text-blacks d-none font-weight-bold">Academic Details</div>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-12 col-md-10">
+                    <img alt="some weird shit">
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-12 col-md-6 order-first">
+                    <!-- FORM -->
+                    <form class="hpreg">
+                        <div class="font-weight-bold text-blacks doct" id="1">
+                            <div class="form-group row mb-5">
+                                <div class="col-4">
+                                    <label for="exampleInputEmail1">Name </label>
+                                </div>
+                                <div class="col-8 input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1">Dr.</span>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="John Doe" aria-label="Username"
+                                        aria-describedby="basic-addon1">
+                                </div>
+                            </div>
+                            <div class="form-group row mb-5">
+                                <div class="col-4">
+                                    <label for="exampleInputEmail1">Profile Photo </label>
+                                </div>
+                                <div class="col-8">
+                                    <input type="file" name="picture">
+                                </div>
+                            </div>
+                            <div class="form-group row mb-5">
+                                <div class="col-4">
+                                    <label for="exampleInputEmail1">Gender</label>
+                                </div>
+                                <div class="col-8">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            value="option1">
+                                        <label class="form-check-label font-weight-light"
+                                            for="inlineRadio1">Female</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input " type="radio" name="inlineRadioOptions"
+                                            value="option2">
+                                        <label class="form-check-label font-weight-light"
+                                            for="inlineRadio2">Male</label>
+                                    </div>
 
-        
+                                </div>
+                            </div>
+                            <div class="form-group row mb-5">
+                                <div class="col-4">
+                                    <label for="exampleInputEmail1">Date of Birth</label>
+                                </div>
+                                <div class="col-8">
+                                    <input type="date" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="Hospital address">
+                                </div>
+                            </div>
+                            <div class="form-group row mb-5">
+                                <div class="col-4">
+                                    <label for="exampleInputEmail1">Mobile</label>
+                                </div>
+                                <div class="col-8">
+                                    <input type="tel" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="johndoe@johndoe.com">
+                                </div>
+                            </div>
+                            <div class="form-group row mb-5">
+                                <div class="col-4">
+                                    <label for="exampleInputEmail1">Email address</label>
+                                </div>
+                                <div class="col-8">
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="johndoe@johndoe.com">
+                                </div>
+                            </div>
+                            <div class="form-group row mb-5">
+                                <div class="col-4">
+                                    <label for="exampleInputEmail1">Choose a Password</label>
+                                </div>
+                                <div class="col-8">
+                                    <input type="password" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="**********">
+                                </div>
+                            </div>
+                            <div class="form-group row mb-3">
+                                <div class="col-4">
+                                    <label for="exampleInputEmail1">Confirm Password</label>
+                                </div>
+                                <div class="col-8">
+                                    <input type="password" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="**********">
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <div class="col-4">
+                                    <label for="exampleInputEmail1"></label>
+                                </div>
+                                <div class="col-8">
+                                    <div class="form-group form-check">
+                                        <input type="checkbox" class="form-check-input mt-2" id="exampleCheck1">
+                                        <label><small class="form-check-label">I agree with terms and
+                                                conditions</small></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group row mb-5">
+                                <div class="col-4">
+                                    <label for="exampleInputEmail1"></label>
+                                </div>
+                                <div class="col-8">
+                                    <button onclick="doctmove(id)" id="1" class="btn btn-green font-weight-bold nosubmit">Submit & Continue >>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" font-weight-bold d-none text-blacks doct" id="2">
+                            <div class="form-group row mb-5">
+                                <div class="col-12">
+                                    <label for="exampleInputEmail1">Professional Bio (Describe your Professional
+                                        bio)</label><br>
+                                    <input class="" type="file" name="Bio">
+                                </div>
+                            </div>
+
+                            <div class="form-group row mb-5">
+                                <div class="col-12">
+                                    <label for="exampleInputEmail1">Years of Clinical Experience</label><br>
+                                    <input type="number" class="form-control w-75" name="Experience"
+                                        aria-describedby="emailHelp" placeholder="Years of Experience" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group row mb-5">
+                                <div class="col-12">
+                                    <label for="exampleInputEmail1">Name of Hospital</label><br>
+                                    <input type="text" class="form-control w-75" name="Hospitalname"
+                                        aria-describedby="emailHelp" placeholder="John Doe" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group row mb-5">
+                                <div class="col-12">
+                                    <label for="exampleInputEmail1">Awards/ Publication if any</label><br>
+                                    <input type="file" name="Awards">
+                                </div>
+                            </div>
+                            <div class="form-group row mb-5">
+                                <div class="col-12">
+                                    <button onclick="doctmove(id)" id="2" class="btn btn-green font-weight-bold nosubmit">Submit & Continue >>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" font-weight-bold d-none text-blacks doct" id="3">
+                            <div class="form-group row mb-5">
+                                <div class="col-12">
+                                    <label for="exampleInputEmail1">Academic Details</label><br>
+                                    <small>Please upload your relevant medical certificates</small>
+                                    <input class="pt-3" type="file" name="picture">
+                                    <div class="mt-4">
+                                        <button onclick="doctmove(id)" id="2" class="btn btn-green font-weight-bold">Submit
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12 col-md-6 order-first">
+                    <!-- IMG -->
+                    <img class=" w-100" id="1" src="images/doctor/doctorreg.png">
+                    <img class="d-none w-100" id="2" src="images/doctor/doctorreg2.png">
+                    <img class="d-none w-100" id="3" src="images/doctor/doctorreg3.png">
+                </div>
+            </div>
+        </div>
+
+
+
         <footer>
             <div class="container py-5">
                 <div class="row">
@@ -167,11 +355,11 @@
                 </div>
             </div>
         </footer>
-        
+
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.easing.1.3.j"></script>
@@ -179,6 +367,32 @@
     <script src="js/jquery.sticky.js"></script>
     <script src="js/main.js"></script>
     <script src="js/script.js"></script>
+    <script>
+        function doctmove(n) {
+            let doct = document.getElementsByClassName("doct")
+            if (n != 3) {
+                document.getElementById(n).addEventListener("click", function (event){event.preventDefault()})
+                doct[n-1].classList.add("d-none");
+                doct[n].classList.remove("d-none")
+            }
+            else {
+                // Send the details stored
+                // Do more checks to validate the forms mostly
+            }
+        }
+
+        // $("btn").click( function() {
+        //     let doct = $("form.doct")
+        //     let n = $("btn#id")
+        //     if (n == "3") {
+        //     }
+        //     else {
+        //         n = n+1
+        //         doct[n].removeClass("d-none")
+        //         doct[n+1].addClass("d-nome")
+        //     }
+        // })
+    </script>
 
 </body>
 
