@@ -235,7 +235,8 @@
                                     <label for="exampleInputEmail1"></label>
                                 </div>
                                 <div class="col-8">
-                                    <button onclick="doctmove(id)" id="1" class="btn btn-green font-weight-bold nosubmit">Submit & Continue >>
+                                    <button onclick="doctmove(id)" id="1"
+                                        class="btn btn-green font-weight-bold nosubmit">Submit & Continue >>
                                     </button>
                                 </div>
                             </div>
@@ -273,7 +274,8 @@
                             </div>
                             <div class="form-group row mb-5">
                                 <div class="col-12">
-                                    <button onclick="doctmove(id)" id="2" class="btn btn-green font-weight-bold nosubmit">Submit & Continue >>
+                                    <button onclick="doctmove(id)" id="2"
+                                        class="btn btn-green font-weight-bold nosubmit">Submit & Continue >>
                                     </button>
                                 </div>
                             </div>
@@ -285,7 +287,8 @@
                                     <small>Please upload your relevant medical certificates</small>
                                     <input class="pt-3" type="file" name="picture">
                                     <div class="mt-4">
-                                        <button onclick="doctmove(id)" id="2" class="btn btn-green font-weight-bold">Submit
+                                        <button onclick="doctmove(id)" id="2"
+                                            class="btn btn-green font-weight-bold">Submit
                                         </button>
                                     </div>
                                 </div>
@@ -295,9 +298,9 @@
                 </div>
                 <div class="col-12 col-md-6 order-first">
                     <!-- IMG -->
-                    <img class=" w-100" id="1" src="images/doctor/doctorreg.png">
-                    <img class="d-none w-100" id="2" src="images/doctor/doctorreg2.png">
-                    <img class="d-none w-100" id="3" src="images/doctor/doctorreg3.png">
+                    <img class=" w-100 imga" id="1" src="images/doctor/doctorreg.png">
+                    <img class="d-none w-100 imga" id="2" src="images/doctor/doctorreg2.png">
+                    <img class="d-none w-100 imga" id="3" src="images/doctor/doctorreg3.png">
                 </div>
             </div>
         </div>
@@ -370,10 +373,15 @@
     <script>
         function doctmove(n) {
             let doct = document.getElementsByClassName("doct")
+            let images = document.getElementsByClassName("imga")
+            let body = document.querySelector("header")
             if (n != 3) {
-                document.getElementById(n).addEventListener("click", function (event){event.preventDefault()})
-                doct[n-1].classList.add("d-none");
+                window.scrollTo(0,0)
+                document.getElementById(n).addEventListener("click", function (event) { event.preventDefault() })
+                images[n - 1].classList.add("d-none")
+                doct[n - 1].classList.add("d-none");
                 doct[n].classList.remove("d-none")
+                images[n].classList.remove("d-none")
             }
             else {
                 // Send the details stored
@@ -390,6 +398,7 @@
         //         n = n+1
         //         doct[n].removeClass("d-none")
         //         doct[n+1].addClass("d-nome")
+        //         $('html, body').animate({scrollTop: '0px'}, 0);
         //     }
         // })
     </script>
