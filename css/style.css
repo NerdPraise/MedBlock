@@ -125,7 +125,7 @@ footer {
 
 .himg {
     background: url(../images/home.png) no-repeat right;
-    background-size: 52%;
+    background-size: contain;
 }
 
 .h1, .h2, .h3, .h4 {
@@ -169,6 +169,9 @@ footer {
 @media only screen and (max-width:770px) {
     .dimg {
         display: none;
+    }
+    .himg {
+        background-image: none;
     }
 }
 
@@ -262,3 +265,5 @@ form.contact input, form.contact textarea, form.contact button {
     border-bottom: 1px solid black;
     margin: 5px
 }
+
+)
